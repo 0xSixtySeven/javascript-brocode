@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.checked</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- there are different types of input fields in html, like: text, password, radio, checkbox, etc. -->
+    <input type="checkbox" id="subscribeCB">
+    <label for="checkBox1">Subscribe</label><br><br>
+    <!-- the for attribute in label tag is used to connect the label with the input field. This way if we click the word and not the checkbox it will still check the box-->
+    <input type="radio" id="visaRadio" name="cardType">
+    <label for="visaRadio">VISA</label><br>
+    <!-- the name attribute in radio input fields is used to group the radio buttons together. This way only one radio button can be selected at a time. -->
+    <input type="radio" id="mastercardRadio" name="cardType">
+    <label for="mastercardRadio">MASTERCARD</label><br>
+
+    <input type="radio" id="paypalRadio" name="cardType">
+    <label for="paypalRadio">PayPal</label><br><br>
+
+    <button type="submit" id="submitBtn">Submit</button>
+
+    <p id="subResult"></p>
+    <p id="paymentResult"></p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
