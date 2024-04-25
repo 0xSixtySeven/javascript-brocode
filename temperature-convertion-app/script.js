@@ -27,15 +27,3 @@ function convert() {
 
 }
 
-// function convertCelsiusToFahrenheit(celsius) {
-//     fahrenheit = celsius * 9 / 5 + 32;
-//     return fahrenheit;
-// }
-// console.log(convertCelsiusToFahrenheit(32));
-
-
-// function convertFahrenheitToCelsius(fahrenheit) {
-//     celsius = (fahrenheit - 32) * 5 / 9;
-//     return celsius;
-// }
-// console.log(convertFahrenheitToCelsius(32));
