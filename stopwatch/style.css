@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(6, 0, 42);
+    font-family: 'Cascadia Code';
+
+}
+
+#myH1,
+#display,
+.buttonColor {
+    color: rgb(158, 103, 0);
+}
+
+#myH1 {
+    font-size: 4rem;
+
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid;
+    border-radius: 40px;
+    border-color: rgba(255, 0, 0, 0.267);
+    background-color: rgba(50, 0, 135, 0.378);
+    padding: 35px;
+}
+
+#display {
+    font-size: 5rem;
+    font-weight: bold;
+    text-shadow: 2px 3px 3px rgba(170, 0, 0, 0.805);
+    margin-bottom: 10px;
+}
+
+#controls button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    min-width: 125px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 1s ease;
+    /* with transition: background-color(the property) 1s(the time it takes to transition) ease; */
+
+}
+
+#startBtn {
+    background-color: rgb(0, 91, 0);
+    color: rgba(255, 255, 255, 0.355);
+}
+
+#startBtn:hover {
+    background-color: rgb(0, 71, 0);
+
+}
+
+#pauseBtn {
+    background-color: rgb(138, 0, 0);
+    color: rgba(255, 255, 255, 0.382);
+}
+
+#pauseBtn:hover {
+    background-color: rgb(106, 0, 0);
+}
+
+#resetBtn {
+    background-color: rgba(0, 0, 0, 0.727);
+    color: chocolate;
+
+}
+
+#resetBtn:hover {
+    background-color: white;
+    color: red;
+
+}
