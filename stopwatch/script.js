@@ -24,7 +24,9 @@ function pause() {
 }
 
 function reset() {
-    clearInterval(timer) // what does clearInterval does? It stops the timer from running 
+    clearInterval(timer) // what does clearInterval do? It stops the timer from running.
+    // Stops the setInterval() method from running, but do no reset the timer, because the timer is still running in the background even though the display is not updating.
+    // then we reset the values of the variables.
     startTime = 0;
     elapsedTime = 0;
     isRunning = false;
@@ -32,10 +34,8 @@ function reset() {
 }
 
 function update() {
-
     const currentTime = Date.now();
-    elapsedTime = currentTime - startTime;
-
+    elapsedTime = currentTime - startTime; // overwriting the value of elapsedTime from the global scope
     let hours = Math.floor(elapsedTime / (1000 * 60 * 60))
     let minutes = Math.floor(elapsedTime / (1000 * 60) % 60)
     let seconds = Math.floor(elapsedTime / 1000 % 60) // we use % 60 to get the remainder of the division by 60

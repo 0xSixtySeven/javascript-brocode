@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(0, 48, 108);
+}
+
+#calculator {
+    font-family: 'Cascadia Code';
+    background-color: rgb(25, 0, 78);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+#display {
+    color: chocolate;
+    width: 100%;
+    padding: 20px;
+    font-size: 4rem;
+    text-align: left;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.52)
+}
+
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+
+}
+
+button {
+    color: rgb(29, 0, 70);
+    font-family: 'Cascadia Code';
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: rgb(49, 0, 135);
+    font-size: 2.7rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    font-size: 3.7rem;
+
+    color: aliceblue;
+    background-color: rgba(36, 0, 83, 0.505);
+}
+
+button:active {
+    font-size: 3.7rem;
+    color: rgb(170, 0, 0);
+}
+
+.operatorBtn {
+    background-color: rgba(223, 160, 0, 0.533)
+}
+
+.clearBtn {
+    background-color: rgba(127, 0, 0, 0.664);
+}
+
+.result {
+    background-color: rgb(0, 0, 0);
+    color: rgba(129, 0, 0, 0.772);
+}
+
+.result:hover {
+    background-color: rgba(129, 0, 0, 0.772);
+    color: black;
+}
+
+.result:active {
+    font-size: 4rem;
+    color: rgba(129, 0, 0, 0.772);
+    background-color: black;
+}
