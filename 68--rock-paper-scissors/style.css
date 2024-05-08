@@ -1,0 +1,62 @@
+body {
+    font-family: 'Cascadia Code';
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(29, 0, 83);
+}
+
+h1 {
+    font-size: 3rem;
+    color: rgba(255, 0, 0, 0.456);
+}
+
+.choices {
+    margin-bottom: 30px;
+}
+
+.choices button {
+    font-size: 6rem;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px 4px;
+    background-color: rgb(20, 0, 50);
+    border: 3px solid;
+    border-color: rgba(255, 0, 0, 0.456);
+    ;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.choices button:hover {
+    background-color: rgb(20, 0, 50);
+
+}
+
+#playerDisplay,
+#botDisplay {
+    font-size: 2.5rem;
+}
+
+#resultDisplay {
+    font-size: 2.8rem;
+    margin: 30px 0;
+}
+
+.scoreDisplay {
+    font-size: 2rem;
+}
+
+.greenText,
+#playerScoreDisplay {
+    color: rgba(15, 89, 0, 0.864);
+}
+
+.redText,
+#botScoreDisplay {
+    color: rgba(255, 0, 0, 0.587);
+    ;
+}
