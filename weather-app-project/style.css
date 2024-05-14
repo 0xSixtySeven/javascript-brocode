@@ -1,0 +1,94 @@
+body {
+    font-family: 'Cascadia Code';
+    background-color: rgb(22, 0, 70);
+    color: rgb(255, 102, 0);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weatherForm {
+    margin: 20px;
+}
+
+.cityInput {
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: rgb(30, 19, 109);
+    color: rgb(255, 102, 0);
+    border: 1px solid rgb(255, 102, 0);
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(255, 102, 0);
+    color: rgb(30, 19, 109);
+}
+
+.card {
+    background: linear-gradient(180deg, rgb(0, 122, 129), rgba(0, 0, 2, 0));
+    padding: 50px;
+    box-shadow: 2px 2px 5px rgb(0, 69, 96);
+    min-width: 300px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+p {
+    font-size: 1.5rem;
+    margin: 8px;
+}
+
+.cityDisplay,
+.tempDisplay {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: rgba(255, 102, 0, 0.586);
+    margin-bottom: 25px;
+}
+
+.humidityDisplay {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(255, 102, 0);
+    margin-bottom: 25px;
+}
+
+.descriptionDisplay {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(255, 102, 0);
+    margin-bottom: 25px;
+}
+
+.weatherEmoji {
+    margin: 0;
+    font-size: 7.5rem;
+}
+
+.errorDisplay {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgba(255, 0, 0, 0.342);
+}

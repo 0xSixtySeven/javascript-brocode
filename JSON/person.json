@@ -1,0 +1,10 @@
+{
+    "name": "Ayrton Senna",
+    "age": 34,
+    "inEmployed": true,
+    "hobbies": [
+        "Racing",
+        "Football",
+        "Tennis"
+    ]
+}
