@@ -1,5 +1,6 @@
 {
     "liveServer.settings.port": 5501,
     "editor.fontFamily": "'JetBrains Mono', Droid Sans Mono', 'monospace', monospace",
-    "synthwave84.brightness": 0.7
+    "synthwave84.brightness": 0.55,
+    "synthwave84.disableGlow": false
 }

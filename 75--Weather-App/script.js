@@ -5,7 +5,7 @@
 const weatherForm = document.querySelector('.weatherForm');
 const cityInput = document.querySelector('.cityInput');
 const card = document.querySelector('.card');
-const apikey = "da450f4852c65f1c7953106c10ee16c7";
+const apikey = "APIKEY";
 
 // Event listener for form submission. 
 // Calls getWeatherData function and displays the weather information.
